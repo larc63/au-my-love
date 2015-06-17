@@ -25,3 +25,8 @@ td:before {
 .metal-price {
     text-align: right;
 }
+
+.status{
+    color: #34495E;
+    font-size: 0.66rem;
+}
