@@ -5,22 +5,10 @@
  value "popup.html".
  -->
 <html>
-  <head>
-    <title>Getting Started Extension's Popup</title>
-    <style>
-      body {
-        font-family: "Segoe UI", "Lucida Grande", Tahoma, sans-serif;
-        font-size: 100%;
-      }
-      #status {
-        /* avoid an excessively wide status text */
-        white-space: pre;
-        text-overflow: ellipsis;
-        overflow: hidden;
-        max-width: 400px;
-      }
-    </style>
 
+<head>
+    <title>Getting Started Extension's Popup</title>
+    <link href='style.css' rel='stylesheet' type='text/css'>
     <!--
       - JavaScript and HTML must be in separate files: see our Content Security
       - Policy documentation[1] for details and explanation.
@@ -28,10 +16,34 @@
       - [1]: https://developer.chrome.com/extensions/contentSecurityPolicy
      -->
     <script src="index.js"></script>
-  </head>
-  <body>
-    <div id="status"></div>
-    <img id="image-result" hidden>
-  </body>
-</html>
+</head>
 
+<body>
+    <div>
+        <table class="metals-table">
+            <tr>
+                <th>Metal</th>
+                <th>Spot</th>
+            </tr>
+            <tr>
+                <td class="metal-name">Gold</td>
+                <td class="metal-price">$1190.25</td>
+            </tr>
+            <tr>
+                <td>Silver</td>
+                <td class="metal-price">$11.25</td>
+            </tr>
+            <tr>
+                <td>Platinum</td>
+                <td class="metal-price">$1190.25</td>
+            </tr>
+            <tr>
+                <td>Palladium</td>
+                <td class="metal-price">$780.99</td>
+            </tr>
+        </table>
+    </div>
+    <div></div>
+</body>
+
+</html>

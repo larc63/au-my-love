@@ -1,0 +1,27 @@
+body {
+    font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
+    font-weight: 300;
+    font-size: 1rem;
+}
+
+table {
+    padding: 0.5rem;
+    background: #34495E;
+    color: #fff;
+    border-radius: .4em;
+    overflow: hidden;
+}
+
+td {
+    padding: 0.25rem 0.5rem;
+}
+
+th,
+td:before {
+    font-size: 1.15rem;
+    color: #dd5;
+}
+
+.metal-price {
+    text-align: right;
+}

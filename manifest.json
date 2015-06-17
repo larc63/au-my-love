@@ -1,8 +1,7 @@
 {
   "manifest_version": 2,
-
-  "name": "Click here!",
-  "description": "This extension is from the hello world example",
+  "name": "Au My Love",
+  "description": "Gathers current spot prices for gold and silver",
   "version": "1.0",
 
   "browser_action": {
