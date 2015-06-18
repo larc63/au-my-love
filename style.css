@@ -26,7 +26,13 @@ td:before {
     text-align: right;
 }
 
-.status{
+.status {
     color: #34495E;
     font-size: 0.66rem;
+}
+
+a {
+    color: #34495E;
+    font-size: 0.66rem;
+    text-decoration: none;
 }

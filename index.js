@@ -1,6 +1,6 @@
 (function () {
     "use strict";
-    var key = "",
+    var key = "?auth_token=x7z5e8GoQfhazVrrcQRL",
         goldURL = "http://www.quandl.com/api/v1/datasets/LBMA/GOLD.json" + key,
         goldID = "gold-price",
         silverURL = "http://www.quandl.com/api/v1/datasets/LBMA/SILVER.json" + key,
