@@ -15,7 +15,6 @@
       -
       - [1]: https://developer.chrome.com/extensions/contentSecurityPolicy
      -->
-    <script src="index.js"></script>
 </head>
 
 <body>
@@ -27,23 +26,24 @@
             </tr>
             <tr>
                 <td class="metal-name">Gold</td>
-                <td class="metal-price">$1190.25</td>
+                <td class="metal-price" id="gold-price">--</td>
             </tr>
             <tr>
                 <td>Silver</td>
-                <td class="metal-price">$11.25</td>
+                <td class="metal-price" id="silver-price">--</td>
             </tr>
             <tr>
                 <td>Platinum</td>
-                <td class="metal-price">$1190.25</td>
+                <td class="metal-price" id="platinum-price">--</td>
             </tr>
             <tr>
                 <td>Palladium</td>
-                <td class="metal-price">$780.99</td>
+                <td class="metal-price" id="palladium-price">--</td>
             </tr>
         </table>
     </div>
-    <div class="status">Last updated: 06/06/2015 18:00:00 UTC</div>
+    <div class="status" id="status">Loading...</div>
+    <script src="index.js"></script>
 </body>
 
 </html>
