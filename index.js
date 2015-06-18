@@ -1,6 +1,15 @@
 (function () {
     "use strict";
-    var getPrice = function (url, id) {
+    var key = "",
+        goldURL = "http://www.quandl.com/api/v1/datasets/LBMA/GOLD.json" + key,
+        goldID = "gold-price",
+        silverURL = "http://www.quandl.com/api/v1/datasets/LBMA/SILVER.json" + key,
+        silverID = "silver-price",
+        platinumURL = "http://www.quandl.com/api/v1/datasets/LPPM/PLAT.json" + key,
+        platinumID = "platinum-price",
+        palladiumURL = "http://www.quandl.com/api/v1/datasets/LPPM/PALL.json" + key,
+        palladiumID = "palladium-price",
+        getPrice = function (url, id) {
             var xmlhttp;
             xmlhttp = new XMLHttpRequest();
             xmlhttp.overrideMimeType("application/json");
